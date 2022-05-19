@@ -1,17 +1,19 @@
-class order
+class Order
   {
     private:
       char orderID[10];
-  
+      
+      
     public:
       // default constructor
-      order();   
+      Order();   
 
       // overloaded constructor
-      order( char porderID[] );      
+      Order( char porderID[] );      
 
       //setters
       void setorderID(char porderID); 
+      
       //getters
       char getorderID();
 
@@ -19,6 +21,6 @@ class order
       void culcAmount();
 
       //destructor
-      ~order();
-      
+      ~Order();
+    
   };

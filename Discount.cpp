@@ -1,13 +1,35 @@
 #include<iostream>
+#include<Discount.h>
 using namespace std;
 
-void Discount::calBalanceAfterDiscount (float amt, float udis)
-{
-    Return Amount – UnitDiscount;
+Discount(){
+  strcpy("DiscountID","");
+  strcpy("Amount" , "");
+  strcpy("UnitDiscount" , "");
 }
-void Discount::DisplayDiscount(int discid, float amt, float udis)
+    
+  Discount(int pDiscountID , char pamount , int punitDiscount)
 {
-cout << " DiscountID =" << Discount ID << endl
-<< " Amount =" << Amount << endl
-<< " UnitDiscount =" << UnitDiscount << endl << endl;
+  strcpy("DiscountID","pDiscountID");
+  strcpy("Amount" , "pamount");
+  strcpy("UnitDiscount" , "punitDiscount");
 }
+    
+  void setDiscountID( int pDiscountID )
+{
+  
+}
+  void setAmount(char pamount) 
+{
+  
+}
+  void setUnitDiscount(ppudiscount) 
+{
+  
+}
+
+  int getDiscountID();
+  char setAmount();
+  int setUnitDiscount();
+
+  ~Discount();

@@ -9,6 +9,7 @@ class Product{
   public:
       Product();
       Product(char pProductID[], char pName[], char pType[], double pAmount, int pQuantity);
+      
       void setProductID(char pProductID[]);
       void setName(char pName[]);
       void setType(char pType[]);

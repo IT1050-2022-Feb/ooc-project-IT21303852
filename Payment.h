@@ -1,4 +1,4 @@
-class payment
+class Payment
   {
     private:
       char paymentID[10];
@@ -8,10 +8,10 @@ class payment
     public:
 
       // default constructor
-      payment();   
+      Payment();   
 
       // overloaded constructor
-      payment(char ppaymentID[10] , double pamount , char pmethod[10]);          
+      Payment(char ppaymentID[10] , double pamount , char pmethod[10]);          
 
       //setters
       void setpaymentID(char ppaymentID[10]) ;

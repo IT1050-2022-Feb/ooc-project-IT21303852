@@ -1,8 +1,9 @@
-#include "product.h"
+#include "Product.h"
 #include <iostream>
 #include <cstring>
 using namespace std;
 
+//default constructor
 Product::Product(){
   
       strcpy(productID, " ");
@@ -13,6 +14,7 @@ Product::Product(){
   
 }
 
+//overloaded constructor
 Product::Product(char pProductID[], char pName[], char pType[], double pAmount, int pQuantity){
   
       strcpy(productID, pProductID);

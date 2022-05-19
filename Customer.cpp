@@ -4,12 +4,12 @@
 
 using namespace std;
 
-void Customer :: customer() {
+void Customer :: Customer() {
 	strcpy(Username, "");
 	strcpy(Password, "");
 	
 }
-void Customer :: customer(char Cusername[], char Cpassword[], char name[], char gender[], char address[], int mobileno, char email[]){
+void Customer :: Customer(char Cusername[], char Cpassword[], char name[], char gender[], char address[], int mobileno, char email[]){
 	
   strcpy(Username, Cusername);
 	strcpy(Password, Cpassword);
