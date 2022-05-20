@@ -1,5 +1,6 @@
 #include<iostream>
 #include<Discount.h>
+#include<cstring>
 using namespace std;
 
 Discount(){
@@ -28,8 +29,20 @@ Discount(){
   
 }
 
-  int getDiscountID();
-  char setAmount();
-  int setUnitDiscount();
+  int getDiscountID()
+{
+  
+}
+  char setAmount()
+{
+  
+}
+  int setUnitDiscount()
+{
+  
+}
 
-  ~Discount();
+  ~Discount()
+{
+  
+}

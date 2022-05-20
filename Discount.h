@@ -1,20 +1,20 @@
 Class Discount{
   private:
-        int DiscountID;
-        char Amount;
-        int UnitDiscount;
+        char DiscountID[10];
+        double Amount;
+        double UnitDiscount;
  public:
   Discount();
     
   Discount(int pDiscountID , char pamount , int punitDiscount);
     
-  void setDiscountID( int pDiscountID );
-  void setAmount(char pamount) ;
-  void setUnitDiscount(ppudiscount) ;
+  void setDiscountID( char pDiscountID );
+  void setAmount(double pamount) ;
+  void setUnitDiscount(double unitDiscount) ;
 
-  int getDiscountID();
-  char setAmount();
-  int setUnitDiscount();
+  char getDiscountID();
+  double setAmount();
+  double setUnitDiscount();
 
   ~Discount();
 };
