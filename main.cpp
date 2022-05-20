@@ -2,11 +2,12 @@
 #include <cstring>
 #include "product.h"
 #include "order.h"
-#include "Discount.h"
+#include "discount.h"
 #include "Guest.h"
-#include "Customer.h"
-#include "pustomer.h"
-#include "Feedback.h"
+#include "customer.h"
+#include "feedback.h"
+#include "cart.h"
+#include "payment.h"
 using namespace std;
 
 int main(){

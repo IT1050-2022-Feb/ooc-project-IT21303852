@@ -1,4 +1,5 @@
 class Product{
+//private attributes
   private:
       char productID[5];
       char name[20];
@@ -7,20 +8,22 @@ class Product{
       int quantity;
 
   public:
-      Product();
-      Product(char pProductID[], char pName[], char pType[], double pAmount, int pQuantity);
-      
+      Product(); //default constructor
+      Product(char pProductID[], char pName[], char pType[], double pAmount, int pQuantity); //overloaded constructor
+
+// setters
       void setProductID(char pProductID[]);
       void setName(char pName[]);
       void setType(char pType[]);
       void setAmount(double pAmount);
       void setQuantity(int pQuantity);
-      
+
+//getters
       char getProductID();
       char getName();
       char getType();
       double getAmount();
       int getQuantity();
-
+//destructor
       ~Product();
 };
